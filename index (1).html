@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Todo List</title>
+</head>
+<body>
+
+  <div class="header">
+    <div class="title-container">
+      <h1>To Do's</h1>
+      <p id="calendarButton" class="calendar">Hoy</p>
+    </div>
+
+    <form id="form">
+      <input type="text" id="input" class="input" placeholder="Añadir tarea..." autocomplete="off">
+    </form>
+  </div>
+
+  <ul id="todos" class="todos"></ul>
+
+  <small>Click para completar · Clic derecho para eliminar</small>
+
+  <div class="color-picker-container">
+    <span class="palette-icon">🎨</span>
+    <input type="color" id="colorPicker" value="#1785ec">
+  </div>
+
+  <div id="calendarModal" class="modal">
+    <div class="modal-content">
+      <input type="date" id="datePicker">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
