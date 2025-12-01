@@ -57,6 +57,14 @@ Este proyecto forma parte de mi portfolio como Ingeniera de Software.
 | **LocalStorage** | Persistencia de tareas |
 
 
+| Función | Descripción |
+|--------|-------------|
+| Selector de fecha | Gestiona tareas por día |
+| Color Picker | Personaliza el color principal |
+| DOM dinámico | Renderizado de tareas |
+| Almacenamiento local | Guarda tareas por fecha |
+
+
 ---
 
 ## Autora
